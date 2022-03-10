@@ -1,0 +1,34 @@
+<script type="text/javascript">
+    
+    function disp() {
+        var fruits =  ["りんご", "みかん", "ぶどう", "メロン", "もも", "レモン"];
+    
+        document.getElementById("dat").innerHTML ="";
+        document.getElementById("dat").innerHTML +="<br>";
+        document.getElementById("dat").innerHTML +="<table border='1'>";
+        for (var i=0; i<fruits.length; i++) {
+                document.getElementById("dat").innerHTML
+                    +="<tr>"
+                        +"<th>"+"fruits["+"</th>"
+                       + "<th>"+i+"</th>"
+                       + +"<th>"+"]："+"</th>"
+                       + "<th>"+fruits[i]+"</th>"
+                       document.getElementById("dat").innerHTML +="<br>";
+                       +"</tr>";
+        }
+        document.getElementById("dat").innerHTML +="</table>";
+    }
+    
+    </script>
+    
+    <div style="background-color : #CCC; padding : 20px 20px 0px;">
+        <form>
+            ["りんご","みかん","ぶどう","メロン","もも","レモン"]
+    　
+            <div style="display:inline-flex;">
+                上の配列の値の格納状態を表示します
+                <input type="button" value="表示" onClick="disp()">
+            </div>
+            <div id="dat" style="background-color : #EEE;"></div>　
+        </form>
+    </div>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/userRegist.css">
+    <title>資料情報入力</title>
+
+</head>
+
+<body>
+    <header>
+        <div class="title">
+            <div class="logo_img">
+                <img src="../img/title_logo.png" alt="" width="281" height="62">
+            </div>
+            <div class="logo_txt">
+                <p>Shinjuku City Library</p>
+            </div>
+        </div>
+
+
+        <p>司書：<a href="" class="">黄</a></p>
+
+        <br>
+        <hr>
+
+    </header>
+    <main>
+        <h2>資料情報入力
+        </h2>
+        <h3>資料種類</h3>
+        <p>資料種類を選択してください</p>
+        <select name="type">
+            <option value="book">書籍</option>
+            <option value="music">音楽</option>
+            <option value="video">映像</option>
+        </select>
+        <table border="1" width="830">
+
+            <tbody>
+                <tr>
+                    <th>
+                        画像アップロード
+                    </th>
+                    <td>
+                        <input type="file" name="image" accept="image/jpeg">
+                    </td>
+                </tr>
+
+                <tr>
+
+                    <th>
+                        題名
+                    </th>
+                    <td>
+                        <input type="text" id="musicName" name="musicName" required>
+                    </td>
+
+                </tr>
+
+                
+
+                <tr>
+                    <th>
+                        作詞者
+                    </th>
+                    <td>
+                        <input type="text" id="lyric" name="lyric" required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <th>
+                        作曲者
+                    </th>
+                    <td>
+                        <input type="text" id="bgm" name="bgm" required>
+                    </td>
+                </tr>
+
+                
+
+                <tr>
+                    <th>
+                        歌手
+                    </th>
+                    <td>
+                        <input type="text" id="singer" name="singer" required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <th>
+                        レコード会社
+                    </th>
+                    <td>
+                        <input type="text" id="record" name="record" required>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <a href="bookManage.html" class="btn btn--orange btn--cubic btn--shadow">戻る</a>
+        <a href="bookManageConfirm.html" class="btn btn--orange btn--cubic btn--shadow">決定</a>
+    </main>
+    <footer>
+
+
+    </footer>
+</body>
+
+</html>

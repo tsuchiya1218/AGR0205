@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/index.css">
+    <title>子供ページ</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <div class="title">
+            <div class="logo_img">
+                <img src="../img/title_logo.png" alt="" width="281" height="62">
+            </div>
+            <div class="logo_txt">
+                <p>Shinjuku City Library</p>
+            </div>
+        </div>
+
+        <div class="button1">
+            <!-- <div class="button">
+                <button onclick="window.location.href='login.html'" type="button"> <span >ログイン</span> </button>
+            </div> -->
+            <div class="button">
+                <button onclick="window.location.href='register.html'" type="button"> <span>新規登録</span> </button>
+            </div>
+        </div>
+        <br>
+        <hr>
+          <!-- タイトル -->
+          <ul class="ul1">
+            <li class="li"> <a href="index.html" class="a1">ホーム</a> </li>
+            <!-- <li class="li"> <a href="guidance.html" class="a1">利用案内</a></li>
+            <li class="li"> <a href="library_guidance.html" class="a1">図書館案内</a></li> -->
+            <!-- <li class="li"> <a href="childpage.html" class="a1">こどもページ</a></li>
+            <li class="li"> <a href="#" class="a1">呼び出し</a></li> -->
+        </ul>
+      
+    </header>
+    <main>
+        <!-- 写真 -->
+        <!-- 950px 250px -->
+
+        <div class="img1">
+            <img src="../img/tatle1.jpg" name="sushi" alt="" width="950px" height="250px">
+            <script type="text/javascript">
+                img = new Array("../img/tatle1.jpg", "../img/tatle2.jpg", "../img/tatle3.jpg", "../img/tatle4.jpg"); //*1
+                count = -1; //*2
+                imgTimer();
+
+                function imgTimer() {
+                    //画像番号
+                    count++; //*3
+                    //画像の枚数確認
+                    if (count == img.length) count = 0; //*4
+                    //画像出力
+                    document.sushi.src = img[count]; //*5
+                    //次のタイマー呼びだし
+                    setTimeout("imgTimer()", 1500); //*6
+                }
+            </script>
+        </div>
+        <!-- 図書検索 -->
+        <div class="TopKensaku">
+            <!-- 新刊 -->
+            <div class="Topsinkan">
+                <div　class="sinkan">
+                    <span class="sinkan1">New</span>
+                    <img src="../img/child1.jpg" alt="" width="160px" height="150px">
+                    <a href="#">幸せ</a>
+                    <img src="../img/child2.jpg" alt="" width="160px" height="140px">
+                    <a href="#">家を変えれば</a>
+                    <img src="../img/child3.jpg" alt="" width="160px" height="150px">
+                    <a href="#">時間の使い方</a>
+                </div>
+            </div>
+            <!-- マッチング -->
+            <div class="Topmakingu">
+                <div class="makingu">
+                    <span class="makingu1">マッチング</span>
+                    <p><img src="../img/child4.png" alt="" width="150px" height="150px" id="syasin1">
+                        <a href="#">あまじない</a>
+                        <img src="../img/child5.png" alt="" width="150px" height="140px">
+                        <a href="#">友達良い</a>
+                        <img src="../img/child6.png" alt="" width="150px" height="150px">
+                        <a href="#">心理テスト</a>
+                    </p>
+                </div>
+            </div>
+            <!-- <form action="search.html" class="form1">
+                <span id="kensaku"> 図書検索：</span><input type="text" name="" width="150px" height="150px" class="kensaku">
+                <input type="submit" value="検索" class="button2">
+                <input type="button" value="詳細検索" onclick="location.href='dsearch.html'" class="button3"><br>
+            </form>
+            <div class="div1" id="p1">
+                <a href="http://sample.htm">資料の検索方法についてはこちら</a>
+            </div> -->
+            <div class="rankingu">
+                <span id="rankingu1">&nbsp&nbsp&nbsp&nbsp&nbspランキング</span>
+                <br>
+                <br>
+                <div class="syasin1">
+                    <img src="../img/child7.png" alt="" width="200px" height="200px">
+                    <br> <a href="">かんじじしょ</a>
+                </div>
+                <div class="syasin1">
+                    <img src="../img/child8.png" alt="" width="200px" height="200px">
+                    <br> <a href="#">四つ子</a>
+                </div>
+                <div class="syasin1">
+                    <img src="../img/child9.png" alt="" width="200px" height="200px">
+                    <br> <a href="#">すみっこぐらし</a>
+                </div>
+                <div class="syasin1">
+                    <img src="../img/child10.png" alt="" width="200px" height="200px">
+                    <br> <a href="#">からだ</a>
+                </div>
+                <div class="syasin1">
+                    <img src="../img/child11.png" alt="" width="200px" height="200px">
+                    <br> <a href="#">おしっこ</a>
+                </div>
+                <div class="syasin1">
+                    <img src="../img/child12.png" alt="" width="200px" height="200px">
+                    <br> <a href="#">そら</a>
+                </div>
+
+                <br>
+
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
+
+<!-- 

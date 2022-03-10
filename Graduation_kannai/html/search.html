@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/dsearch.css">
+    <title>詳細検索</title>
+
+</head>
+
+<body>
+    <header>
+        <div class="title">
+            <div class="logo_img">
+                <img src="../img/title_logo.png" alt="" width="281" height="62">
+            </div>
+            <div class="logo_txt">
+                <p>Shinjuku City Library</p>
+            </div>
+        </div>
+
+        <div class="button1">
+            <!-- <div class="button">
+                <button onclick="window.location.href='login.html'" type="button"> <span >ログイン</span> </button>
+            </div> -->
+            <div class="button">
+                <button onclick="window.location.href='register.html'" type="button"> <span>新規登録</span> </button>
+            </div>
+        </div>
+        <br>
+        <hr>
+        <ul class="mytest">
+            <li class="li"> <a href="index.html" class="a1">ホーム</a> </li>
+            <li class="li"> <a href="guidance.html" class="a1">利用案内</a></li>
+            <li class="li"> <a href="library_guidance.html" class="a1">図書館案内</a></li>
+            <!-- <li class="li"> <a href="childpage.html" class="a1">こどもページ</a></li> -->
+            <li class="li"> <a href="call.html" class="a1">呼び出し</a></li>
+        </ul>
+    </header>
+    <main>
+
+        <h2>検索結果一覧</h2>
+
+        <table>
+
+            <tr>
+                <td><img src="../img/book1.jpg" alt="" width="50px" height="100px"></td>
+                <th>
+                    映画に学ぶ危機管理
+                </th>
+                <td>
+                    齋藤　富雄／編著 -- 晃洋書房 -- - 1901010110
+                </td>
+                <td>
+                    <button onclick="window.location.href='detail.html'" type="button"
+                        style="background-color: seagreen;">貸出可</button>
+                </td>
+
+            </tr>
+
+            <tr>
+                <td><img src="../img/book4.jpg" alt="" width="50px" height="100px"></td>
+                <th>
+                    映画に学ぶ危機管理
+                </th>
+                <td>
+                    齋藤　富雄／編著 -- 晃洋書房 -- 1901010110
+                </td>
+                <td>
+                    <button style="background-color: red;" onclick="window.location.href='lendadd.html'">貸出中</button>
+
+                </td>
+            </tr>
+
+            <tr>
+                <td><img src="../img/book5.jpg" alt="" width="50px" height="100px"></td>
+                <th>
+                    映画に学ぶ危機管理
+                </th>
+                <td>
+                    齋藤　富雄／編著 -- 晃洋書房 -- 1901010110
+                </td>
+                <td>
+                    <button style="background-color: seagreen;" 　
+                        onclick="window.location.href='detail.html'">貸出可</button>
+                </td>
+            </tr>
+
+            <tr>
+                <td><img src="../img/book2.jpg" alt="" width="50px" height="100px"></td>
+                <th>
+                    映画に学ぶ危機管理
+                </th>
+                <td>
+                    齋藤　富雄／編著 -- 晃洋書房 -- 1901010110
+                </td>
+                <td>
+                    <button style="background-color: seagreen;" 　
+                        onclick="window.location.href='detail.html'">貸出可</button>
+                </td>
+            </tr>
+
+            <tr>
+                <td><img src="../img/book3.jpg" alt="" width="50px" height="100px"></td>
+                <th>
+                    映画に学ぶ危機管理
+                </th>
+                <td>
+                    齋藤　富雄／編著 -- 晃洋書房 -- 1901010110
+                </td>
+                <td>
+                    <button style="background-color:slategray">貸出不可</button>
+                </td>
+            </tr>
+
+        </table>
+        <div style="text-align: right;">
+            <button onclick="history.back()" type="button"> 戻る </button>
+        </div>
+    </main>
+</body>
+
+</html>
